@@ -89,7 +89,7 @@ function e(e,t,i,o){var s,n=arguments.length,r=n<3?t:null===o?o=Object.getOwnPro
           >Profile Settings</a
         >
         and disabling the option
-        "${this.hass.localize("ui.panel.profile.suspend.header")||"Automatically close connection"}".
+        "${"Automatically close connection"}".
       </ha-alert>
     `:B``}_renderInteractionAlert(){return B`
       <ha-alert title="Interaction requirement">

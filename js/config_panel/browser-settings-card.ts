@@ -132,8 +132,7 @@ class BrowserModRegisteredBrowsersCard extends LitElement {
           >Profile Settings</a
         >
         and disabling the option
-        "${this.hass.localize("ui.panel.profile.suspend.header") ||
-        "Automatically close connection"}".
+        "${"Automatically close connection"}".
       </ha-alert>
     `;
   }
